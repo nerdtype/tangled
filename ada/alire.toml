@@ -8,4 +8,4 @@ website = ""
 tags = ["game"]
 
 [[depends-on]]
-raylib = "~0.1.0"
+raylib = "~1.0.1"
