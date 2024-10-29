@@ -1,0 +1,11 @@
+name = "tangled"
+description = "Untangle game using Raylib"
+version = "0.1.0-dev"
+
+authors = ["Nerd-Type"]
+licenses = "MIT"
+website = ""
+tags = ["game"]
+
+[[depends-on]]
+raylib = "~0.1.0"

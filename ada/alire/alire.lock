@@ -1,0 +1,74 @@
+# THIS FILE IS GENERATED. DO NOT EDIT.
+
+[solution]
+[solution.context]
+solved = true
+[[solution.state]]
+crate = "gnat"
+fulfilment = "solved"
+pinned = false
+transitivity = "indirect"
+versions = ">=12 & <2000"
+[solution.state.release]
+auto-gpr-with = false
+description = "The GNAT Ada compiler - Native"
+licenses = "GPL-3.0-or-later AND GPL-3.0-or-later WITH GCC-exception-3.1"
+maintainers = [
+"chouteau@adacore.com",
+]
+maintainers-logins = [
+"Fabien-Chouteau",
+]
+name = "gnat_native"
+provides = [
+"gnat=13.2.2",
+]
+version = "13.2.2"
+[solution.state.release.configuration]
+auto_gpr_with = true
+disabled = true
+generate_ada = true
+generate_c = true
+generate_gpr = true
+output_dir = "config"
+[solution.state.release.environment]
+[solution.state.release.environment.PATH]
+prepend = "${CRATE_ROOT}/bin"
+[solution.state.release.origin]
+binary = true
+hashes = [
+"sha256:a27fd7945ac9ead50abdd8e4564d133d00f635536bf9dfdf1e00af5e08a0c494",
+]
+url = "https://github.com/alire-project/GNAT-FSF-builds/releases/download/gnat-13.2.0-2/gnat-x86_64-linux-13.2.0-2.tar.gz"
+[[solution.state]]
+crate = "raylib"
+fulfilment = "solved"
+pinned = false
+transitivity = "direct"
+versions = "~0.1.0"
+[solution.state.release]
+authors = [
+"Fabien Chouteau",
+]
+description = "Ada bindings for Raylib"
+licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
+maintainers = [
+"Fabien Chouteau <fabien.chouteau@gmail.com>",
+]
+maintainers-logins = [
+"Fabien-Chouteau",
+]
+name = "raylib"
+tags = [
+"raylib",
+"gamedev",
+"binding",
+]
+version = "0.1.0"
+website = ""
+[solution.state.release.origin]
+commit = "d5a6702eec1774ee3753672e62fbb99d88ef893a"
+url = "git+https://github.com/Fabien-Chouteau/raylib-ada.git"
+[[solution.state.release.depends-on]]
+gnat = ">=12 & <2000"
+

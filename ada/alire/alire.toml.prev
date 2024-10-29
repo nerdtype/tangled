@@ -1,0 +1,10 @@
+name = "splat"
+description = "Raylib test game"
+version = "0.1.0-dev"
+
+authors = ["Whalt Dhisnkee"]
+maintainers = ["Whalt Dhisnkee <example@example.com>"]
+maintainers-logins = ["github-username"]
+licenses = "MIT"
+website = ""
+tags = ["game"]

@@ -1,0 +1,5 @@
+dependency:raylib=0.1.0=8750e46ba42bd78125b397bcad092db7c0e7bd1a79a7077affbe4f01b7071f27
+external:LIBRARY_TYPE=default
+external:TANGLED_LIBRARY_TYPE=default
+profile:tangled=DEVELOPMENT
+switches:tangled=-Og,-fdata-sections,-ffunction-sections,-g,-gnatVa,-gnatW8,-gnatw.X,-gnatwa,-gnaty-d,-gnaty3,-gnatyA,-gnatyB,-gnatyI,-gnatyO,-gnatyS,-gnatya,-gnatyb,-gnatyc,-gnatye,-gnatyf,-gnatyh,-gnatyi,-gnatyk,-gnatyl,-gnatym,-gnatyn,-gnatyp,-gnatyr,-gnatyt,-gnatyu,-gnatyx
