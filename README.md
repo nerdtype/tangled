@@ -48,6 +48,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 1. Raylib [https://www.raylib.com](https://www.raylib.com)
 
-2. Learn Ada [https://learn.adacore.com](https://www.adacore.com)
+2. Learn Ada [https://learn.adacore.com](https://learn.adacore.com)
 
 3. Learn Rust [https://www.rust-lang.org/learn](https://www.rust-lang.org/learn)
