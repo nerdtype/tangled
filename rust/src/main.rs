@@ -259,7 +259,7 @@ fn main() {
         New_Level (&mut Balls, &mut Level_Complete);
 
         let (mut rl, thread) = raylib::init()
-            .size(650, 650)
+            .size(Game_Width, Game_Height)
             .title("Test Raylib - Rust")
             .build();
 

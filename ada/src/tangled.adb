@@ -233,7 +233,7 @@ begin
 
    New_Level;
 
-   raylib.InitWindow (650, 650, New_String ("Test Raylib - Ada"));
+   raylib.InitWindow (Game_Width, Game_Height, New_String ("Test Raylib - Ada"));
    raylib.InitAudioDevice;
    raylib.SetMasterVolume (0.3);
 
