@@ -176,12 +176,6 @@ procedure Tangled is
       end if;
    end Draw_Ball;
 
-   procedure Draw_Ball (Ball : Ball_Type) is
-   begin
-      raylib.DrawCircle (Ball.X, Ball.Y, Ball_Radius, raylib.RED);
-      raylib.DrawCircle (Ball.X, Ball.Y, Ball_Fill, raylib.RAYWHITE);
-   end Draw_Ball;
-
    procedure Draw_Game is
    begin
       raylib.BeginDrawing;

@@ -17,6 +17,4 @@ package Tangled_Config is
    type Build_Profile_Kind is (release, validation, development);
    Build_Profile : constant Build_Profile_Kind := development;
 
-   Ada_Compiler_Switches : constant String := "-gnat2022";
-
 end Tangled_Config;
